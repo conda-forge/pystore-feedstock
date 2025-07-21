@@ -24,8 +24,8 @@ requirements:
     - dask-core
     - distributed
     - fastparquet
-    - multitasking
-    - numpy
+    - multitasking >=0.0.11
+    - numpy <2.0.0,>=1.24.0
     - pandas
     - partd
     - python >={{ python_min }}
